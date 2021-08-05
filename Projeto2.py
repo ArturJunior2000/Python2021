@@ -1,6 +1,7 @@
 from random import randint
 v = 0
 while True:
+    print(10 * '===')
     jogador = int(input('Digite um número: '))
     computador = randint(0, 10)
     print(f'jogador {jogador}')
